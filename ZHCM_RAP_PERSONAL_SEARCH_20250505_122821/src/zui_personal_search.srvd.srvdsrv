@@ -1,0 +1,4 @@
+@EndUserText.label: 'Personal Search'
+define service ZUI_PERSONAL_SEARCH {
+  expose ZC_HCM_PERSONAL as Employee;
+}

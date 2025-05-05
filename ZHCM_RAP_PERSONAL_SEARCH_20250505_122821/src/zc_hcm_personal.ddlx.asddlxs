@@ -1,0 +1,107 @@
+@Metadata.layer: #CORE
+
+@UI.headerInfo: {
+//                typeName: 'Employee',
+//                  typeNamePlural: 'Employees',
+//                 typeImageUrl: 'HCMPersonnelPhoto',
+                  imageUrl: 'Foto',
+
+                  title: { type: #STANDARD, value: 'HCMEmployeeName' },
+                  description.value: 'HCMPersonnelNumber' }
+
+@UI.presentationVariant: [ { sortOrder: [ { by: 'HCMPersonnelNumber', direction: #ASC } ] } ]
+
+annotate entity ZC_HCM_PERSONAL with
+
+{
+  @UI.facet: [ { label: 'General Information',
+                 id: 'GeneralInfo',
+                 purpose: #STANDARD,
+                 position: 10,
+                 type: #IDENTIFICATION_REFERENCE },
+               { parentId: 'GeneralInfo',
+                 label: 'FieldGroup (#OPForm)',
+                 type: #FIELDGROUP_REFERENCE,
+                 targetQualifier: 'OPForm',
+                 position: 20 } ]
+  @UI.lineItem: [ { position: 10 } ]
+  HCMPersonnelNumber;
+
+  @UI.identification: [ { position: 20 } ]
+  @UI.lineItem: [ { position: 30 } ]
+  @UI.textArrangement: #TEXT_FIRST
+  HCMPosition;
+
+  @UI.identification: [ { position: 20 } ]
+  HCMDurationPosition;
+
+  @UI.identification: [ { position: 20 } ]
+  @UI.lineItem: [ { position: 40 } ]
+  @UI.textArrangement: #TEXT_FIRST
+  HCMOrganizationalUnit;
+
+  @UI.identification: [ { position: 20 } ]
+  @UI.lineItem: [ { position: 50 } ]
+  @UI.textArrangement: #TEXT_FIRST
+  HCMPersonnelArea;
+
+  @UI.identification: [ { position: 20 } ]
+  @UI.textArrangement: #TEXT_FIRST
+  HCMPersonnelSubarea;
+
+  @UI.identification: [ { position: 20, label: 'Correo Electrónico' } ]
+  HCMCommunicationLongID;
+
+  @UI.identification: [ { position: 20 } ]
+  @UI.textArrangement: #TEXT_FIRST
+  HCMEmployeeGroup;
+
+  @UI.identification: [ { position: 20 } ]
+  @UI.textArrangement: #TEXT_FIRST
+  HCMEmployeeSubgroup;
+
+  @UI.identification: [ { position: 20 } ]
+  @UI.textArrangement: #TEXT_FIRST
+  CompanyCode;
+
+  @UI.lineItem: [ { position: 60 } ]
+  @UI.identification: [ { position: 20 } ]
+  HCMCommunicationID;
+
+  @UI.identification: [ { position: 20 } ]
+  HCMJob;
+
+  @UI.identification: [ { position: 20 } ]
+  @UI.textArrangement: #TEXT_FIRST
+  HCMEmployeeManagerNumber;
+
+  @UI.connectedFields: [ { importance: #HIGH,
+                           qualifier: 'ConnectedFields',
+                           name: 'tf2',
+                           template: '{tf2} / {tf1}',
+                           groupLabel: 'Teléfono Interno' } ]
+  @UI.identification: [ { type: #AS_CONNECTED_FIELDS, valueQualifier: 'ConnectedFields', position: 30 } ]
+  HCMTelephone01;
+
+  @UI.connectedFields: [ { importance: #HIGH, qualifier: 'ConnectedFields', name: 'tf1' } ]
+  HCMTelephone02;
+
+  @UI.connectedFields: [ { importance: #HIGH,
+                           qualifier: 'ConnectedFields2',
+                           name: 'Month',
+                           template: '{Day} / {Month}',
+                           groupLabel: 'Día y Mes de Nacimiento' } ]
+  @UI.identification: [ { type: #AS_CONNECTED_FIELDS, valueQualifier: 'ConnectedFields2', position: 30 } ]
+  BirthMonth;
+
+  @UI.connectedFields: [ { importance: #HIGH, qualifier: 'ConnectedFields2', name: 'Day' } ]
+  Birthday;
+  //   @UI.lineItem: [ { position: 40 } ]
+  @UI.hidden: true
+  Attachment;
+  @UI.hidden: true
+  MimeType;
+  @UI.hidden: true
+  FileName;
+
+}
