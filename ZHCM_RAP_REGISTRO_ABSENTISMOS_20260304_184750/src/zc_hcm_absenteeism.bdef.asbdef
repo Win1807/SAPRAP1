@@ -1,0 +1,14 @@
+unmanaged implementation in class zbp_c_hcm_absenteeism unique;
+strict ( 2 );
+
+define behavior for ZC_HCM_ABSENTEEISM
+lock master
+authorization master ( instance )
+{
+  create;
+  update;
+  delete;
+  field( readonly : update ) EmployeeNumber;
+  field( readonly : update ) LogicalSystem;
+  field( readonly : update ) DocumentNumber;
+}

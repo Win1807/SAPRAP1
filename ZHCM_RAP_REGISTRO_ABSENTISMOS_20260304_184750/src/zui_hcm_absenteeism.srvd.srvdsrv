@@ -1,0 +1,8 @@
+@EndUserText.label: 'Absenteeism'
+define service ZUI_HCM_ABSENTEEISM {
+  expose ZC_HCM_ABSENTEEISM         as Absenteeism;
+  expose ZC_HCM_EMPLOYEE_SEARCH     as EmployeeSearch;
+  expose ZI_HCM_VH_ABSENTEEISMCLASS as AbsenteeismClass;
+  expose ZC_HCM_USEFUL_DAYS         as UsefulDays;
+  expose ZC_HCM_ASISTENCIA_DIARIA   as AsistenciaDiaria;
+}

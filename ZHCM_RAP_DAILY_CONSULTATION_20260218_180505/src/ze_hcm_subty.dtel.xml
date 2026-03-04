@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZE_HCM_SUBTY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>SUBTY</DOMNAME>
+    <MEMORYID>SUB</MEMORYID>
+    <HEADLEN>04</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Subtype</DDTEXT>
+    <REPTEXT>STy.</REPTEXT>
+    <SCRTEXT_S>SType</SCRTEXT_S>
+    <SCRTEXT_M>Subtype</SCRTEXT_M>
+    <SCRTEXT_L>Subtype</SCRTEXT_L>
+    <APPLCLASS>PINF</APPLCLASS>
+    <DTELMASTER>S</DTELMASTER>
+    <DEFFDNAME>SUBTYPE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Subtyp</DDTEXT>
+     <REPTEXT>Art</REPTEXT>
+     <SCRTEXT_S>Art</SCRTEXT_S>
+     <SCRTEXT_M>Subtyp</SCRTEXT_M>
+     <SCRTEXT_L>Subtyp</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Total de marcas de absentismos</DDTEXT>
+     <REPTEXT>Cl.</REPTEXT>
+     <SCRTEXT_S>Cl.</SCRTEXT_S>
+     <SCRTEXT_M>Subtipo</SCRTEXT_M>
+     <SCRTEXT_L>Subtipo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

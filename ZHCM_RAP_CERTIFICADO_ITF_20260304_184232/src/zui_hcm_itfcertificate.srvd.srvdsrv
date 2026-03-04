@@ -1,0 +1,5 @@
+@EndUserText.label: 'Certificate ITF'
+define service ZUI_HCM_ITFCERTIFICATE {
+  expose ZC_HCM_DATA_CERTIF_ITF as EmployeeITFSet;
+  expose ZC_HCM_CERTIF_PDF as DisplayPDFGet;
+}

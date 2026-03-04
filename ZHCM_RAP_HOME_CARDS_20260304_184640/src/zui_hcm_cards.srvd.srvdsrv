@@ -1,0 +1,7 @@
+@EndUserText.label: 'Serv. Definition for Cards'
+define service ZUI_HCM_CARDS {
+  expose ZC_HCM_CALENDAR           as Calendar;
+  expose ZI_HCM_CONTACT_DETAILS_PV as ContactDetails;
+  expose ZI_HCM_PERSONAL_SEARCH    as PersonalSearch;
+  expose ZI_HCM_CALENDAR_TYPES     as CalendarTypes;
+}

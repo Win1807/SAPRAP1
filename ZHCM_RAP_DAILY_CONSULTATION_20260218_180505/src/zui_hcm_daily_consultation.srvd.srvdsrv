@@ -1,0 +1,14 @@
+@EndUserText.label: 'Serv Def. for Daily consultation App'
+define service ZUI_HCM_DAILY_CONSULTATION {
+  expose ZI_HCM_DOMAIN_TYPE_PERIOD  as TypePeriod;
+  expose ZC_HCMEmployeeVH           as HCMEmployee;
+  expose ZI_HCM_COMPANY_VH          as CompanyCode;
+  expose I_HCMAttendanceAbsenceType as AbsenceType;
+  expose ZI_HCMDCReportTypeVH       as ReportType;
+  expose ZI_HCMEmployeeGroupVH      as EmployeeGroup;
+  expose ZI_HCMEmploymentStatusText as EmploymentStatus;
+  expose ZC_HCM_DAILY_CONSULTATION  as DailyConsultation;
+  expose ZR_HCM_COMMUNICATION_DC    as Communication;
+  expose ZC_HCM_DAILYC_DETAIL       as DailyCDetail;
+  expose ZC_HCM_DAILYC_RESUMM       as DailyCResumm;
+}

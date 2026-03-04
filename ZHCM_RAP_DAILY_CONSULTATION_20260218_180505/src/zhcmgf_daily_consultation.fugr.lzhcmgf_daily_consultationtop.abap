@@ -1,0 +1,5 @@
+FUNCTION-POOL ZHCMGF_DAILY_CONSULTATION.    "MESSAGE-ID ..
+
+* INCLUDE LZHCMGF_DAILY_CONSULTATIOND...     " Local class definition
+types:
+gty_t511_aux      TYPE HASHED TABLE OF zhcms_t511_dc WITH UNIQUE KEY molga lgart endda.

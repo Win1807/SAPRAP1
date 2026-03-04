@@ -1,0 +1,12 @@
+@EndUserText.label: 'Declaration Patrimonial'
+define service ZUI_HCM_DECLARATION_PAT {
+  expose ZC_HCM_PERSONAL_INFORMATION  as PersonalInformation;
+  expose ZC_HCM_PERSONAL_RELATIONSHIP as PersonalRelation;
+  expose ZI_HCM_DECLARATION_PAT       as DeclarationPat;
+  expose ZI_HCM_DEPOSITS_DEC_PAT      as Deposits;
+  expose ZI_HCM_IMMOVABLES_DEC_PAT    as Immovables;
+  expose ZI_HCM_VEHICLES_DEC_PAT      as Vehicles;
+  expose ZI_HCM_VALUES_DEC_PAT        as Values;
+  expose ZI_HCM_OTHERS_DEC_PAT        as Others;
+  expose ZI_HCM_DEBITS_DEC_PAT        as Debits;
+}

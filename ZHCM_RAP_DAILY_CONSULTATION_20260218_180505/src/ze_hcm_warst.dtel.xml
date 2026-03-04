@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZE_HCM_WARST</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>DEC2_2</DOMNAME>
+    <HEADLEN>06</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Weekly Workdays</DDTEXT>
+    <REPTEXT>WkDys</REPTEXT>
+    <SCRTEXT_S>Workdays</SCRTEXT_S>
+    <SCRTEXT_M>Workdays</SCRTEXT_M>
+    <SCRTEXT_L>Weekly workdays</SCRTEXT_L>
+    <APPLCLASS>PTIM</APPLCLASS>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Wöchentliche Arbeitstage</DDTEXT>
+     <REPTEXT>WoArb</REPTEXT>
+     <SCRTEXT_S>Arbstage</SCRTEXT_S>
+     <SCRTEXT_M>Arbeitstage</SCRTEXT_M>
+     <SCRTEXT_L>Wöch. Arbeitstage</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Total de marcas teóricas</DDTEXT>
+     <REPTEXT>DíaLS</REPTEXT>
+     <SCRTEXT_S>Días lab.</SCRTEXT_S>
+     <SCRTEXT_M>Días laborables</SCRTEXT_M>
+     <SCRTEXT_L>Días laboral.seman.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

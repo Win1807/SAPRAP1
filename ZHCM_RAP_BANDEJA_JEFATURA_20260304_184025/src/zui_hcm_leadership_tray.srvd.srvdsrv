@@ -1,0 +1,8 @@
+@EndUserText.label: 'Bandeja de Jefatura'
+define service ZUI_HCM_LEADERSHIP_TRAY
+
+{
+  expose ZC_HCM_DATA_LEADERSHIP_TRAY as GetLeadershipTraySet;
+  expose ZC_HCM_GET_TASK             as GetTaskSet;
+  expose ZC_HCM_GET_PERSONAL         as GetPersonalSet;
+}

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HCM_SUBSTITUTION_RECORD</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase de registro de suplencias</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clase de registro de suplencias</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>EP_P0002</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Registro maestro de personal Infotipo 0002 (Datos pers.)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener data del empleado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_SEARCH</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Busqueda de empleados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PERSONAL_SUBSTITUTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener lista de empleados substitutos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TIME_WORK_SCHEDULE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener datos de regla plan de horario trabajo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>POST_REGISTER_SUBSTITUTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Registrar información de registro de suplencia</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_SEARCH</CMPNAME>
+     <SCONAME>FLAG</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Carácter individual opcional</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PERSONAL_SUBSTITUTE</CMPNAME>
+     <SCONAME>NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre (campo de Ayuda p.búsqueda)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PERSONAL_SUBSTITUTE</CMPNAME>
+     <SCONAME>SOCIETY</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Sociedad</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

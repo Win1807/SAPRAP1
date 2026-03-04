@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_IWPR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <_-IWBEP_-I_SBD_MD>
+    <_-IWBEP_-I_SBD_MD>
+     <PROJECT>ZHCM_CERTIF_ITF</PROJECT>
+     <NODE_UUID>zwWgXvKpHt+v2zyV0VzTbw==</NODE_UUID>
+     <NODE_UUID_PA>zwWgXvKpHt+v2zyV0VyTbw==</NODE_UUID_PA>
+     <PLUGIN_PA>/IWBEP/CORE</PLUGIN_PA>
+     <NODE_TYPE_PA>PROJ</NODE_TYPE_PA>
+    </_-IWBEP_-I_SBD_MD>
+   </_-IWBEP_-I_SBD_MD>
+   <_-IWBEP_-I_SBD_NOI>
+    <_-IWBEP_-I_SBD_NOI>
+     <PROJECT>ZHCM_CERTIF_ITF</PROJECT>
+     <NODE_UUID>zwWgXvKpHt+v2zyV0VyTbw==</NODE_UUID>
+    </_-IWBEP_-I_SBD_NOI>
+    <_-IWBEP_-I_SBD_NOI>
+     <PROJECT>ZHCM_CERTIF_ITF</PROJECT>
+     <NODE_UUID>zwWgXvKpHt+v2zyV0VzTbw==</NODE_UUID>
+    </_-IWBEP_-I_SBD_NOI>
+    <_-IWBEP_-I_SBD_NOI>
+     <PROJECT>ZHCM_CERTIF_ITF</PROJECT>
+     <NODE_UUID>zwWgXvKpHt+v2zyV0Vzzbw==</NODE_UUID>
+    </_-IWBEP_-I_SBD_NOI>
+   </_-IWBEP_-I_SBD_NOI>
+   <_-IWBEP_-I_SBD_PR>
+    <_-IWBEP_-I_SBD_PR>
+     <PROJECT>ZHCM_CERTIF_ITF</PROJECT>
+     <NODE_UUID>zwWgXvKpHt+v2zyV0VyTbw==</NODE_UUID>
+     <CREATION_USER_ID>T46757</CREATION_USER_ID>
+     <CREATION_TIME>20241220135412.561878</CREATION_TIME>
+     <LAST_CHG_USER_ID>T46757</LAST_CHG_USER_ID>
+     <LAST_CHG_TIME>20241220135412.561899</LAST_CHG_TIME>
+     <LAST_CHG_STATE>zwWgXvKpHt+v2z3XbMJzcA==</LAST_CHG_STATE>
+     <PLUGIN>/IWBEP/GEN</PLUGIN>
+     <STRAT_NAME>0001</STRAT_NAME>
+     <PROJECT_TYPE>1</PROJECT_TYPE>
+    </_-IWBEP_-I_SBD_PR>
+   </_-IWBEP_-I_SBD_PR>
+   <_-IWBEP_-I_SBD_SV>
+    <_-IWBEP_-I_SBD_SV>
+     <PROJECT>ZHCM_CERTIF_ITF</PROJECT>
+     <NODE_UUID>zwWgXvKpHt+v2zyV0Vzzbw==</NODE_UUID>
+    </_-IWBEP_-I_SBD_SV>
+   </_-IWBEP_-I_SBD_SV>
+  </asx:values>
+ </asx:abap>
+</abapGit>

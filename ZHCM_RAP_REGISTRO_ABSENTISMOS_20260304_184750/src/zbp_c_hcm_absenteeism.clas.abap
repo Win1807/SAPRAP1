@@ -1,0 +1,5 @@
+CLASS zbp_c_hcm_absenteeism DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zc_hcm_absenteeism.
+ENDCLASS.
+
+CLASS zbp_c_hcm_absenteeism IMPLEMENTATION.
+ENDCLASS.

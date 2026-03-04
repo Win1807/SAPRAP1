@@ -1,0 +1,4 @@
+@EndUserText.label: 'Serv.Definition for Compens. Variable'
+define service ZUI_HCM_REMUNERA_VARIABLE {
+  expose ZC_HCM_REMUNERA_VARIABLE;
+}

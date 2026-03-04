@@ -1,0 +1,17 @@
+unmanaged implementation in class zbp_i_hcm_sanctions_history unique;
+strict ( 2 );
+
+define behavior for ZI_HCM_SANCTIONS_HISTORY
+lock master
+authorization master ( instance )
+{
+  create;
+  update;
+  delete;
+
+  field (readonly) EmployeeNumber;
+  field (readonly) sancionid;
+  field (readonly) SanctionType;
+  field (readonly) begda;
+  field (readonly) endda;
+}

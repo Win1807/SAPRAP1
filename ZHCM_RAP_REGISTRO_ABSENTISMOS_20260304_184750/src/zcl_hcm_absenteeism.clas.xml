@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HCM_ABSENTEEISM</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase para Absentismo</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clase para Absentismo</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AO_CONSTANTES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Administrador de Constantes N</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_ERROR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Error</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUCEFULL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Indicador de una posición</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_WARNING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warning</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_ABSENTEEISM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Data del Absentismo del Empleado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_LIST</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lista de empleados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_SEARCH</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Busqueda de empleados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_USEFUL_DAYS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Dias Calendario por Empleado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_VH_ABSENTEEISM_CLASS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener Ayuda de Busqueda de Absentismos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INFTY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Infotipo 2001</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>OPERATION_CREATE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>TIpo de Operacion - Crear</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>OPERATION_UPDATE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>TIpo de Operacion - Modificar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RANGEID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ID de Rango</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REPID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de programa ABAP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_CREATE_ABSENTEEISM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crear Absentismo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_DELETE_ABSENTEEISM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Eliminar Absentismo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_UPDATE_ABSENTEEISM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Modificar Absentismo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>STATUS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Constante Status</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VH_ABSENTEEISM_CLASS</CMPNAME>
+     <SCONAME>EMPLOYEENUMBER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de personal</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,18 @@
+unmanaged implementation in class zbp_c_hcm_approve_request_med unique;
+strict ( 2 ); //Uncomment this line in order to enable strict mode 2. The strict mode has two variants (strict(1), strict(2)) and is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZC_HCM_APPROVE_REQUEST_MED //alias <alias_name>
+//late numbering
+lock master
+authorization master ( global )
+//etag master <field_name>
+{
+//  create;
+//  update;
+//  delete;
+
+  field ( readonly ) CompanyCode;
+  field ( readonly ) RequestID;
+  action Approve_Request parameter zhcms_approve_reason;
+  action Reject_Request parameter zhcms_approve_reason;
+}

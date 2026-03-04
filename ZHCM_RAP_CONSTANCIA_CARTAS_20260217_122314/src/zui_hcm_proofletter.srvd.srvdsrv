@@ -1,0 +1,8 @@
+@EndUserText.label: 'Proof of work'
+define service ZUI_HCM_PROOFLETTER {
+  expose ZC_HCM_PROOF_WORK    as ProofWorkSet;
+  expose ZC_HCM_PRE_EMB       as PreEmbSet;
+  expose ZI_HCM_RELATIONSHIPS as RelationshipsGet;
+  expose ZI_HCM_EMBASSY       as EmbassyGet;
+  expose ZC_HCM_LETTERTYPE    as LetterType;
+}

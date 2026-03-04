@@ -1,0 +1,6 @@
+@EndUserText.label: 'Serv Def. for Staff Report'
+define service ZUI_HCM_STAFF_REPORT {
+  expose ZC_HCM_StaffReport      as StaffReport;
+  expose ZC_HCM_MatrixReport     as MatrixReport;
+  expose ZC_HCM_MatrixReportTree as MatrixReportTree;
+}

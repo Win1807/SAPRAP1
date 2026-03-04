@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HCM_DECLARATION_PAT</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase para Absentismo</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clase para Absentismo</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>C_ERROR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Error</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SUCEFULL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Indicador de una posición</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PERSONAL_INFORMATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtención de Información Personal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_DECLARATION_PAT_INF9308</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Registro de Declaración Patrimonial INF 9308</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PERSONAL_INFORMATION</CMPNAME>
+     <SCONAME>USERNAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de usuario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DECLARATION_PAT_INF9308</CMPNAME>
+     <SCONAME>EMPLOYERNUMBER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Cantidad de períodos G/L</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DECLARATION_PAT_INF9308</CMPNAME>
+     <SCONAME>MENSAJES</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Log de retorno para procesos</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

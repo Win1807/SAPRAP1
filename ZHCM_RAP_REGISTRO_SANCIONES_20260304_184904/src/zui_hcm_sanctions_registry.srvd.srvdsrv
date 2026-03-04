@@ -1,0 +1,8 @@
+@EndUserText.label: 'Sanctions Registry'
+define service ZUI_HCM_SANCTIONS_REGISTRY {
+  expose ZC_HCM_EMPLOYEE_SEARCH_SANC as EmployeeSearch;
+  expose ZC_HCM_SANCTIONS_RECORD     as SanctionRecord;
+  expose ZI_HCM_SANCTIONS_HISTORY    as SanctionHistory;
+  expose ZC_HCM_SANCTIONS_LIST       as SanctionList;
+  expose ZC_HCM_VALIDATE_DATEEND     as ValidateDateEnd;
+}

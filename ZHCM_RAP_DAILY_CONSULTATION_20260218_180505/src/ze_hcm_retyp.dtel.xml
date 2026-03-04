@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZE_HCM_RETYP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>RETYP</DOMNAME>
+    <HEADLEN>03</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Time Event Type</DDTEXT>
+    <REPTEXT>TET</REPTEXT>
+    <SCRTEXT_S>Tm.ev.type</SCRTEXT_S>
+    <SCRTEXT_M>Time event type</SCRTEXT_M>
+    <SCRTEXT_L>Time event type</SCRTEXT_L>
+    <APPLCLASS>PTIM</APPLCLASS>
+    <DTELMASTER>S</DTELMASTER>
+    <DEFFDNAME>TEVENTTYPE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Zeitereignisart</DDTEXT>
+     <REPTEXT>ZEA</REPTEXT>
+     <SCRTEXT_S>Zeiter.art</SCRTEXT_S>
+     <SCRTEXT_M>Zeitereign.art</SCRTEXT_M>
+     <SCRTEXT_L>Zeitereignisart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Total de marca real</DDTEXT>
+     <REPTEXT>CHT</REPTEXT>
+     <SCRTEXT_S>Cl.h.temp.</SCRTEXT_S>
+     <SCRTEXT_M>Tot.Marc.real.</SCRTEXT_M>
+     <SCRTEXT_L>Total de marca real</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,10 @@
+@EndUserText.label: 'Serivico de registro de suplencia'
+define service ZUI_HCM_SUBSTITUTION_REGISTRY {
+  expose ZC_HCM_GET_EMPLOYEE            as GetEmployeeSearchSet;
+  expose ZC_HCM_GET_EMPLOYEE_DATA       as GetEmployeeDataSet;
+  expose ZC_HCM_TIME_WORK_SCHEDULE      as GetTimeWorkScheduleSet;
+  expose ZI_HCM_GET_SUBSTITUTE_CLASS    as GetSubstituteClassSet;
+  expose ZI_HCM_HELP_SCHEDULE_PLAN      as GetHelpSchedulePlanSet;
+  expose ZC_HCM_REGISTER_SUBS           as GetRegisterSubsSet;
+  expose ZC_HCM_GET_PERSONAL_SUBSTITUTE as GetPersonalSubsSet;
+}

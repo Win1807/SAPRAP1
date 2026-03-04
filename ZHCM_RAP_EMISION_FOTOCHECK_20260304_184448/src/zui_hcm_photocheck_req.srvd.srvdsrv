@@ -1,0 +1,5 @@
+@EndUserText.label: 'Serv. Definition for Request Photocheck'
+define service ZUI_HCM_PHOTOCHECK_REQ {
+  expose ZC_HCM_PHOTOCHECK_REQ as PhotocheckReqSet;
+  expose ZI_HCM_VH_REASON_REQ  as ReasonReqGet;
+}

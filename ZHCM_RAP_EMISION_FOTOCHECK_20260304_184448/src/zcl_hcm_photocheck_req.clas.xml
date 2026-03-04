@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HCM_PHOTOCHECK_REQ</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>App Emisión de Fotocheck</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>App Emisión de Fotocheck</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>EMPLOYEE_RECORD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Registro maestro de personal Infotipo 0001 (Asignac.organ.)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERROR_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mensajes de error</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Numero Empleado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ERROR_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene errores</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_REASON_REQ</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene la Descripcción del Motivo de la Solicitud del Fotoc</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REQUEST_FOTOCHECK</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Ejecuta la función para la Solicitud de Fotocheck</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>EMPLOYEE_NUMBER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de personal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>REFERENCE_DATE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Campo de sistema ABAP: Fecha actual del servidor aplicación</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>USER_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de usuario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ERROR_MESSAGES</CMPNAME>
+     <SCONAME>ERROR_MESSAGE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mensajes de error</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_REASON_REQ</CMPNAME>
+     <SCONAME>USERNAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Usuario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REQUEST_FOTOCHECK</CMPNAME>
+     <SCONAME>COMMENTSOL</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Ele. para almacenar un argumento con respecto a su solicitud</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REQUEST_FOTOCHECK</CMPNAME>
+     <SCONAME>IDREASON</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Ele. de dat. para el ident. de motivo de solicitud de fotoch</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REQUEST_FOTOCHECK</CMPNAME>
+     <SCONAME>MESSAGEID</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Indicador de una posición</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REQUEST_FOTOCHECK</CMPNAME>
+     <SCONAME>MESSAGETEXT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Texto de mensaje</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REQUEST_FOTOCHECK</CMPNAME>
+     <SCONAME>USERNAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de personal</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,93 @@
+@AbapCatalog.viewEnhancementCategory: [#NONE]
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Personal Addresses'
+@Metadata.ignorePropagatedAnnotations: true
+@ObjectModel.usageType:{
+    serviceQuality: #X,
+    sizeCategory: #S,
+    dataClass: #MIXED
+}
+define view entity ZI_HCM_PersonalAddresses
+  as select from pa0006
+{
+  key pernr as HCMPersonnelNumber,
+  key subty as HCMSubtype,
+      @Semantics.booleanIndicator: true
+  key objps as HCMObjectIdentification,
+  key sprps as HCMRecordIsLocked,
+      @Semantics.businessDate.to: true
+  key endda as EndDate,
+      @Semantics.businessDate.from: true
+  key begda as StartDate,
+  key seqnr as HCMSequentialNumber,
+      // aedtm as Aedtm,
+      // uname as Uname,
+      // histo as Histo,
+      // itxex as Itxex,
+      // refex as Refex,
+      // ordex as Ordex,
+      // itbld as Itbld,
+      // preas as Preas,
+      // flag1 as Flag1,
+      // flag2 as Flag2,
+      // flag3 as Flag3,
+      // flag4 as Flag4,
+      // rese1 as Rese1,
+      // rese2 as Rese2,
+      // grpvl as Grpvl,
+      // anssa as Anssa,
+      // name2 as Name2,
+      stras as Street,
+      // ort01 as Ort01,
+      ort02 as District,
+      // pstlz as Pstlz,
+      // land1 as Land1,
+      // telnr as Telnr,
+      // entkm as Entkm,
+      // wkwng as Wkwng,
+      // busrt as Busrt,
+      // locat as Locat,
+      // adr03 as Adr03,
+      // adr04 as Adr04,
+      // state as State,
+      hsnmr as HouseNumber,
+      posta as AppartmentId
+      // bldng as Bldng,
+      // floor as Floor,
+      // strds as Strds,
+      // entk2 as Entk2,
+      // com01 as Com01,
+      // num01 as Num01,
+      // com02 as Com02,
+      // num02 as Num02,
+      // com03 as Com03,
+      // num03 as Num03,
+      // com04 as Com04,
+      // num04 as Num04,
+      // com05 as Com05,
+      // num05 as Num05,
+      // com06 as Com06,
+      // num06 as Num06,
+      // indrl as Indrl,
+      // counc as Counc,
+      // rctvc as Rctvc,
+      // or2kk as Or2kk,
+      // conkk as Conkk,
+      // or1kk as Or1kk,
+      // railw as Railw,
+      // zz_depa as ZzDepa,
+      // zz_ubig as ZzUbig,
+      // zz_rep1 as ZzRep1,
+      // zz_rep2 as ZzRep2,
+      // zz_prov as ZzProv,
+      // zz_dist as ZzDist,
+      // zz_nzona as ZzNzona,
+      // zz_codzona as ZzCodzona,
+      // zz_int as ZzInt,
+      // zz_blk as ZzBlk,
+      // zz_km as ZzKm,
+      // zz_etp as ZzEtp,
+      // zz_mza as ZzMza,
+      // zz_lt as ZzLt
+
+}

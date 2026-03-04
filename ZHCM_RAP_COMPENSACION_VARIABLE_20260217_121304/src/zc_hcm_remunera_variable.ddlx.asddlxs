@@ -1,0 +1,119 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: {
+    typeName: 'Compensación Variable',
+    typeNamePlural: 'Compensación Variable'
+  }
+}
+
+annotate entity ZC_HCM_REMUNERA_VARIABLE with
+{
+  @UI: {
+          selectionField: [ { position: 30 } ] }
+  FiscYear;
+
+  @UI: { selectionField: [ { position: 20 } ] }
+  @UI.textArrangement: #TEXT_ONLY
+  TableType;
+
+  @UI: {
+          selectionField: [ { position: 40 } ] }
+  MonthNumber;
+
+  @UI: {
+          selectionField: [ { position: 10 } ] }
+  EmployeeNumber;
+
+  @UI.lineItem: [ { position:90 , label: '1', type: #STANDARD } ]
+  DisplayedColumn1;
+  
+  @UI.lineItem: [ { position:  100 , label: '2'  } ]
+  DisplayedColumn2;
+  
+  @UI.lineItem: [ { position:  110 , label: '3'  } ]
+  DisplayedColumn3;
+  
+  @UI.lineItem: [ { position:  120 , label: '4'  } ]
+  DisplayedColumn4;
+  
+  @UI.lineItem: [ { position:  130 , label: '5'  } ]
+  DisplayedColumn5;
+  
+  @UI.lineItem: [ { position:  140 , label: '6'  } ]
+  DisplayedColumn6;
+  
+  @UI.lineItem: [ { position:  150 , label: '7'  } ]
+  DisplayedColumn7;
+  
+  @UI.lineItem: [ { position:  160 , label: '8'  } ]
+  DisplayedColumn8;
+  
+  @UI.lineItem: [ { position:  170 , label: '9'  } ]
+  DisplayedColumn9;
+  
+  @UI.lineItem: [ { position:  180 , label: '10'  } ]
+  DisplayedColumn10;
+  
+  @UI.lineItem: [ { position:  190 , label: '11'  } ]
+  DisplayedColumn11;
+  
+  @UI.lineItem: [ { position:  200 , label: '12'  } ]
+  DisplayedColumn12;
+  
+  @UI.lineItem: [ { position:  210 , label: '13'  } ]
+  DisplayedColumn13;
+  
+  @UI.lineItem: [ { position:  220 , label: '14'  } ]
+  DisplayedColumn14;
+  
+  @UI.lineItem: [ { position:  230 , label: '15'  } ]
+  DisplayedColumn15;
+  
+  @UI.lineItem: [ { position:  240 , label: '16'  } ]
+  DisplayedColumn16;
+  
+  @UI.lineItem: [ { position:  250 , label: '17'  } ]
+  DisplayedColumn17;
+  
+  @UI.lineItem: [ { position:  260 , label: '18'  } ]
+  DisplayedColumn18;
+  
+  @UI.lineItem: [ { position:  270 , label: '19'  } ]
+  DisplayedColumn19;
+  
+  @UI.lineItem: [ { position:  280 , label: '20'  } ]
+  DisplayedColumn20;
+  
+  @UI.lineItem: [ { position:  290 , label: '21'  } ]
+  DisplayedColumn21;
+  
+  @UI.lineItem: [ { position:  300 , label: '22'  } ]
+  DisplayedColumn22;
+  
+  @UI.lineItem: [ { position:  310 , label: '23'  } ]
+  DisplayedColumn23;
+  
+  @UI.lineItem: [ { position:  320 , label: '24'  } ]
+  DisplayedColumn24;
+  
+  @UI.lineItem: [ { position:  330 , label: '25'  } ]
+  DisplayedColumn25;
+  
+  @UI.lineItem: [ { position:  340 , label: '26'  } ]
+  DisplayedColumn26;
+  
+  @UI.lineItem: [ { position:  350 , label: '27'  } ]
+  DisplayedColumn27;
+  
+  @UI.lineItem: [ { position:  360 , label: '28'  } ]
+  DisplayedColumn28;
+  
+  @UI.lineItem: [ { position:  370 , label: '29'  } ]
+  DisplayedColumn29;
+  
+  @UI.lineItem: [ { position:  380 , label: '30'  } ]
+  DisplayedColumn30;
+  
+  @UI.lineItem: [ { position:  390 , label: '31'  } ]
+  DisplayFormat;
+}

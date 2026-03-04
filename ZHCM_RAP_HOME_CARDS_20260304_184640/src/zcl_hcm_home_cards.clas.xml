@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HCM_HOME_CARDS</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase ZCL_HCM_HOME_CARDS</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clase ZCL_HCM_HOME_CARDS</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BOSS_EMPLOYEE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Jefe del Empleado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Numero Empleado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PHOTO_EMPLOYEE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Foto del Empleado</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BOSS_EMPLOYEE</CMPNAME>
+     <SCONAME>EMPLOYEENUMBER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de personal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>REFERENCE_DATE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Campo de sistema ABAP: Fecha actual del servidor aplicación</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>USER_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de usuario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PHOTO_EMPLOYEE</CMPNAME>
+     <SCONAME>I_PERNR</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de personal</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

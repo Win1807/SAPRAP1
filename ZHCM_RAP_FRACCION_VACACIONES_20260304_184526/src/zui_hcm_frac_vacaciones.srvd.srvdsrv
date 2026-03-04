@@ -1,0 +1,8 @@
+@EndUserText.label: 'Serv Definition for Fracionamiento de vacaciones'
+define service ZUI_HCM_FRAC_VACACIONES {
+  expose ZC_HCM_VH_ABSENTEEISM         as AbsenteeismClass;
+  expose ZC_HCM_INITIAL_CHECK_POLITICS as CheckPolitics;
+  expose ZC_HCM_VACATION_FRACTION      as VacationFraction;
+  expose ZC_HCM_NOTIF_VIEW_CAB         as NotificationCab;
+  expose ZC_HCM_NOTIF_VIEW_DET         as NotificationDet;
+}

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HCM_PROOFLETTER</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Constancia de Cartas - Constancia de Trabajo</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Constancia de Cartas - Constancia de Trabajo</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>EMPLOYEE_RECORD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Registro maestro de personal Infotipo 0001 (Asignac.organ.)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERROR_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mensajes de error</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Numero Empleado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ERROR_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene errores</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_LETTERTYPE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Trabajador &apos;T&apos; o Practicante &apos;T&apos;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PRE_EMB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Constacia de Embajada o Practica</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PROOF_WORK</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Constancia de Trabajo</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>EMPLOYEE_NUMBER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de personal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>REFERENCE_DATE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Campo de sistema ABAP: Fecha actual del servidor aplicación</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>USER_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de usuario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ERROR_MESSAGES</CMPNAME>
+     <SCONAME>ERROR_MESSAGE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mensajes de error</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LETTERTYPE</CMPNAME>
+     <SCONAME>LETTERTYPE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de Carta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LETTERTYPE</CMPNAME>
+     <SCONAME>USER_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de usuario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PRE_EMB</CMPNAME>
+     <SCONAME>EMP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Destino de Carta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PRE_EMB</CMPNAME>
+     <SCONAME>REQUESTTYPE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de Solicitud</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PRE_EMB</CMPNAME>
+     <SCONAME>RETURN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Parámetro de retorno</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PRE_EMB</CMPNAME>
+     <SCONAME>USER_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de Usuario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PRE_EMB</CMPNAME>
+     <SCONAME>WRANGO</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tabla Familiar</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PROOF_WORK</CMPNAME>
+     <SCONAME>EMP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Destino de Carta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PROOF_WORK</CMPNAME>
+     <SCONAME>LETTERTYPE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de Carta</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PROOF_WORK</CMPNAME>
+     <SCONAME>RETURN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Parámetro de retorno</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PROOF_WORK</CMPNAME>
+     <SCONAME>USER_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de Usuario</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

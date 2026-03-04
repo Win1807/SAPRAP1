@@ -1,0 +1,13 @@
+@EndUserText.label: 'Prestamos administrativos'
+define service ZUI_HCM_LOAN_ADMIN {
+  expose ZC_HCM_EMPLOYEE_SEARCHS   as EmployeeSearchGet;
+  expose ZC_HCM_REQUEST_LOAN       as RequestLoanGet;
+  expose ZC_HCM_REASON_LOAN        as ReasonLoanGet;
+  expose ZC_HCM_TERMS_COND         as TermsCondGet;
+  expose ZC_HCM_EMPLOYEE_INFO      as EmployeeInfoGet;
+  expose ZC_HCM_COLLABORATOR_COND  as CollaboratorCondGet;
+  expose ZC_HCM_HISTORY_LOAN       as HistoryLoanGet;
+  expose ZC_HCM_APPROV_REJECT_LOAN as ApprovRejectLoanGet;
+  expose ZC_HCM_CALCULATE_LOAN     as CalculateLoanGet;
+  expose ZC_HCM_EMPLOYEE_DATA_INIT as EmployeeDataInitGet;
+}

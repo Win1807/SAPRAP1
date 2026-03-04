@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HCM_CERTIF_ITF</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Certificado ITF</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Certificado ITF</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>EMPLOYEE_RECORD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Registro maestro de personal Infotipo 0001 (Asignac.organ.)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ERROR_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mensajes de error</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene datos principales</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Numero Empleado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ERROR_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene errores</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_IMAGE_URL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene URL de las imagenes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PDF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtiene Firmas</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>EMPLOYEENUMBER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de personal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>EMPLOYEEYEAR</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Año</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>EMPLOYEE_ITF_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de Tabla del Certificado ITF</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>RETURN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Parámetro de retorno</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>USER_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de usuario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>EMPLOYEE_NUMBER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de personal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>REFERENCE_DATE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Campo de sistema ABAP: Fecha actual del servidor aplicación</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPLOYEE_NUMBER</CMPNAME>
+     <SCONAME>USER_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de usuario</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ERROR_MESSAGES</CMPNAME>
+     <SCONAME>ERROR_MESSAGE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Mensajes de error</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_IMAGE_URL</CMPNAME>
+     <SCONAME>IMAGE_INPUT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de la imagen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PDF</CMPNAME>
+     <SCONAME>EMPLOYEE_ITF_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Estructura de la Data del Certificado de ITF</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PDF</CMPNAME>
+     <SCONAME>PDF</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Salida de formulario (PDF, PDL)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

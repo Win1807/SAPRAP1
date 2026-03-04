@@ -1,0 +1,98 @@
+unmanaged implementation in class zbp_i_hcm_declaration_pat unique;
+strict ( 2 );
+
+define behavior for ZI_HCM_DECLARATION_PAT //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly ) EmployeeNumber;
+  association _Debits { create; }
+  association _Deposits { create; }
+  association _Immovables { create; }
+  association _Others { create; }
+  association _Values { create; }
+  association _Vehicles { create; }
+}
+
+define behavior for ZI_HCM_DEBITS_DEC_PAT //alias <alias_name>
+//late numbering
+lock dependent by _Declaration
+authorization dependent by _Declaration
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) DebitEmployeeNumber;
+  field ( readonly : update  ) DebitSequentialNumber;
+  association _Declaration;
+}
+
+define behavior for ZI_HCM_DEPOSITS_DEC_PAT //alias <alias_name>
+//late numbering
+lock dependent by _Declaration
+authorization dependent by _Declaration
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) DepositEmployeeNumber;
+  field ( readonly : update  ) DepositSequentialNumber;
+  association _Declaration;
+}
+
+define behavior for ZI_HCM_IMMOVABLES_DEC_PAT //alias <alias_name>
+//late numbering
+lock dependent by _Declaration
+authorization dependent by _Declaration
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) ImmovableEmployeeNumber;
+  field ( readonly : update  ) ImmovableSequentialNumber;
+  association _Declaration;
+}
+
+define behavior for ZI_HCM_OTHERS_DEC_PAT //alias <alias_name>
+//late numbering
+lock dependent by _Declaration
+authorization dependent by _Declaration
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) OtherEmployeeNumber;
+  field ( readonly : update  ) OtherSequentialNumber;
+  association _Declaration;
+}
+
+define behavior for ZI_HCM_VALUES_DEC_PAT //alias <alias_name>
+//late numbering
+lock dependent by _Declaration
+authorization dependent by _Declaration
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) ValueEmployeeNumber;
+  field ( readonly : update  ) ValueSequentialNumber;
+  association _Declaration;
+}
+
+define behavior for ZI_HCM_VEHICLES_DEC_PAT //alias <alias_name>
+//late numbering
+lock dependent by _Declaration
+authorization dependent by _Declaration
+//etag master <field_name>
+{
+  update;
+  delete;
+  field ( readonly ) VehicleEmployeeNumber;
+  field ( readonly : update  ) VehicleSequentialNumber;
+  association _Declaration;
+}

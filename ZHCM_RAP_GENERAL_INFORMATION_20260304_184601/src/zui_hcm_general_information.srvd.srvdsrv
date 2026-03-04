@@ -1,0 +1,8 @@
+@EndUserText.label: 'HCM General_Information'
+define service ZUI_HCM_General_information {
+  expose ZI_HCM_GENERALINF_UnitOrg  as UnitOrganizational;
+  expose ZC_HCM_GeneralInf_employee as Employee;
+  expose I_HCMJob                   as HCMJob;
+  expose ZI_HCM_PersonalAbsenteeism as PersonalAbsenteeism;
+  expose I_CostCenterText;
+}

@@ -1,0 +1,13 @@
+@EndUserText.label: 'Serv. Definition for Request Medical Rest'
+define service ZUI_HCM_MEDICAL_REST {
+  expose zi_hcm_subordinate_employees   as SubordinateEmployees;
+  expose zi_hcm_diagnost_classification as Clasification;
+  expose zi_hcm_diagnost_specification  as Specification;
+  expose zi_hcm_Medical_Center          as MedicalCenter;
+  expose zi_hcm_Type_disease            as TypeDisease;
+  expose ZI_HCM_APPROVE_REQUEST_EMPL    as SearchRequestEmp;
+  expose ZC_HCM_INITIALIZATION          as Initialization;
+  expose ZC_HCM_REQUEST_MED_EMPLOYEE    as RequestMedEmployee;
+  expose ZC_HCM_INITIALIZATION_APPROVE  as InitializationApprove;
+  expose ZC_HCM_APPROVE_REQUEST_MED     as ApproveRequestEmp;
+}

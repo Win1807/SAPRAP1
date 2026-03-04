@@ -1,0 +1,6 @@
+@EndUserText.label: 'HCM Organization Chart'
+define service ZUI_HCM_ORGANIZATION_CHART {
+  expose ZI_HCM_ORG_CHART_UnitOrg    as UnitOrganizational;
+  expose ZC_HCM_ORG_CHART_EMPLOYEE   as Employee;
+  expose ZC_HCM_ORG_CHART_EMPLOY_ADD as EmployeeAditional;
+}

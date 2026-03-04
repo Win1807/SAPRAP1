@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HCM_PERSONAL_CHANGE</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase para Solicitud de Descanso Médico</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clase para Solicitud de Descanso Médico</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AO_CONSTANTES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Administrador de Constantes N</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MANT_S</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Grupo de personal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MEDIDA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Constante Medida</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>STATUS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Constante Status</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>VALID_PERSONAL_CHANGES</CMPNAME>
+     <SCONAME>OBJID</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>ID objeto</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

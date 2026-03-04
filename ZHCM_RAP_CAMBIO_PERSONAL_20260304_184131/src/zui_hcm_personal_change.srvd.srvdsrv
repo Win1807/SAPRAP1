@@ -1,0 +1,6 @@
+@EndUserText.label: 'Personal Change'
+define service ZUI_HCM_PERSONAL_CHANGE {
+  expose ZC_HCM_PERSONAL_SEARCH       as PersonalSearch;
+  expose ZC_HCM_DIVISION_CHANGE       as DivisionChange;
+  expose ZC_HCM_VALID_PERSONAL_CHANGE as ValidPersonalChange;
+}

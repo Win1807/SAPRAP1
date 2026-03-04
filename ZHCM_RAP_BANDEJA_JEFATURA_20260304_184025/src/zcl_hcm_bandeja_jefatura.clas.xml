@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_HCM_BANDEJA_JEFATURA</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Clase Bandeja de jefatura</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Clase Bandeja de jefatura</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONSTANTES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener Constantes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_PERSONAL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener lista de Personal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TAREA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtener lista de Tareas Workitem</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_WORKLIST</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Obtencion de datos de reporte de WorkItem</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONSTANTES</CMPNAME>
+     <SCONAME>THRS1000</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de Tabla horas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PERSONAL</CMPNAME>
+     <SCONAME>TPA0002</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de Tabla Datos de Personal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TAREA</CMPNAME>
+     <SCONAME>TASK</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de tablas tarea</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TAREA</CMPNAME>
+     <SCONAME>THRS1000</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de Tabla horas</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_WORKLIST</CMPNAME>
+     <SCONAME>PERNR_FILTER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Número de personal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_WORKLIST</CMPNAME>
+     <SCONAME>TASK_FILTER</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Concatenación de tipo de objeto e ID de objeto</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_WORKLIST</CMPNAME>
+     <SCONAME>WORKLIST_TABLE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tabla para informaciones work item</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

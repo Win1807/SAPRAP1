@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <INCLUDES>
+    <SOBJ_NAME>LZHCM_CERTIF_ITFTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZHCM_CERTIF_ITF</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZHCM_CERTIF_GET_PDF</FUNCNAME>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>EMPLOYEE_ITF_DATA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZHCMT_CERTIFICATE_ITF</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>PDF</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>FPFORMOUTPUT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>EMPLOYEE_ITF_DATA</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PDF</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

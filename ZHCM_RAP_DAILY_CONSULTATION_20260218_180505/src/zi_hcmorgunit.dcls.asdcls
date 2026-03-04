@@ -1,0 +1,11 @@
+@EndUserText.label: 'Acces Control for ZI_HCMORGUNIT'
+@MappingRole: true
+define role ZI_HCMORGUNIT {
+    grant
+        select
+            on
+               i_orgunit
+                    where
+                        OrganizationalUnit is not NULL;
+                        
+}
